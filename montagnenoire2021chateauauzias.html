@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negosud - Accueil</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+
+<body class="container">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <h1>Negosud</h1>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="./signup.html">Inscription</a></li>
+        <li><a href="./signin.html">Connexion</a></li>
+        <li><a href="./basket.html">Panier</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="search">Rechercher :</label><br>
+      <input type="search" id="search" name="search" value=""><br>
+      <label for="family">Sélectionner une famille :</label>
+      <select name="family" id="family">
+        <option value="tous">Toutes</option>
+        <option value="rouges">Rouges</option>
+        <option value="blancs">Blancs</option>
+        <option value="rosés">Rosés</option>
+        <option value="pétillants">Pétillants</option>
+        <option value="digestifs">Digestifs</option>
+      </select>
+    </form>
+    <section>
+      <article>
+        <h3>MONTAGNE NOIRE 2021 - CHATEAU AUZIAS</h3>
+        <p>Vin rouge</p>
+        <p>Année : 2021</p>
+        <p>13,5 % vol</p>
+        <p>0,75 L</p>
+        <p>
+          <strong>Pour les amateurs de valeurs sûres : ce rouge du Languedoc multi-récompensé à petit prix est fait pour
+            vous !</strong><br>
+          Des amis qui débarquent à l’improviste ? Une envie de s’ouvrir un bouteille de rouge, comme ça, juste pour le
+          plaisir d’accompagner un morceau de fromage et un peu de charcuterie ? Avec Montagne Noire du Château d’Auzias
+          on a tout bon ! Ses notes de fruits noirs et d’épices délicates agrémentent à merveille ce petit vin rouge du
+          Languedoc au rapport qualité-prix-plaisir imbattable ! Foncez !
+        </p>
+        <img src="./images/montagne-noire-2021-chateau-auzias.png"
+          alt="Bouteille de vin Montagne Noire 2021 - Chateau Auzias">
+        <footer>
+          <p>prix : 6€90</p>
+          <form>
+            <label for="quantity">Quantité :</label><br>
+            <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="100"><br>
+            <button>Ajouter au panier</button>
+          </form>
+        </footer>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p><a href="mailto:contact@negosud.com">Contact</a></p>
+  </footer>
+</body>
+
+</html>

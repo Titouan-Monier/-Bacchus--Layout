@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negosud - Accueil</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+
+<body class="container">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <h1>Negosud</h1>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="./signup.html">Inscription</a></li>
+        <li><a href="./signin.html">Connexion</a></li>
+        <li><a href="./basket.html">Panier</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="search">Rechercher :</label><br>
+      <input type="search" id="search" name="search" value=""><br>
+      <label for="family">Sélectionner une famille :</label>
+      <select name="family" id="family">
+        <option value="tous">Toutes</option>
+        <option value="rouges">Rouges</option>
+        <option value="blancs">Blancs</option>
+        <option value="rosés">Rosés</option>
+        <option value="pétillants">Pétillants</option>
+        <option value="digestifs">Digestifs</option>
+      </select>
+    </form>
+    <section>
+      <article>
+        <h3>UBY BYO ROSE N°26 2021 - DOMAINE UBY</h3>
+        <p>Vin rosé</p>
+        <p>Année : 2021</p>
+        <p>11,5 % vol</p>
+        <p>0,75 L</p>
+        <p>
+          <strong>Découvrez la gamme Byo du domaine Uby à travers ce délicieux rosé !!</strong><br>
+          L'intégralité du vignoble d'Uby est certifié Viticulture Raisonnée Contrôlée depuis 10 ans et les vignes
+          issues de l'agriculture biologique représentent 70 hectares du domaine. Cette cuvée rosée de la gamme Byo est
+          un vrai régal... Avec des notes de framboise, de groseilles, le vin dégage une grande fraîcheur avec une
+          bouche grasse et ample sur une délicieuse finale de fruits frais... Une pure gourmandise !
+        </p>
+        <img src="./images/uby-byo-rose-n26-2021-domaine-uby.png"
+          alt="Bouteille de vin Uby Byo Rosé N°26 2021 - Domaine Uby">
+        <footer>
+          <p>prix : 7€90</p>
+          <form>
+            <label for="quantity">Quantité :</label><br>
+            <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="100"><br>
+            <button>Ajouter au panier</button>
+          </form>
+        </footer>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p><a href="mailto:contact@negosud.com">Contact</a></p>
+  </footer>
+</body>
+
+</html>

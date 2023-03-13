@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negosud - Accueil</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+</head>
+
+<body class="container">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <h1>Negosud</h1>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="./signup.html">Inscription</a></li>
+        <li><a href="./signin.html">Connexion</a></li>
+        <li><a href="./basket.html">Panier</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="search">Rechercher :</label><br>
+      <input type="search" id="search" name="search" value=""><br>
+      <label for="family">Sélectionner une famille :</label>
+      <select name="family" id="family">
+        <option value="tous">Toutes</option>
+        <option value="rouges">Rouges</option>
+        <option value="blancs">Blancs</option>
+        <option value="rosés">Rosés</option>
+        <option value="pétillants">Pétillants</option>
+        <option value="digestifs">Digestifs</option>
+      </select>
+    </form>
+    <section>
+      <article>
+        <h3>L'ÉCLAT 2021 - DOMAINE DE JOŸ</h3>
+        <p>Vin blanc</p>
+        <p>Année : 2021</p>
+        <p>11,5 % vol</p>
+        <p>0,75 L</p>
+        <p>
+          <strong>L'Éclat du domaine de Joÿ est un vin de plaisir immédiat à déguster sur sa jeunesse, pour le plaisir
+            de la fraîcheur et du fruité !</strong><br>
+          La cuvée l'Éclat offre une robe pâle aux reflets verts. Le nez frais et fruité présente des notes d'agrumes
+          (pamplemousse, citron) et de fruits exotiques (litchi). En bouche, le vin est frais, rond et se termine sur
+          des notes délicieusement fruitées. L'Eclat du domaine de Joÿ est un vin de plaisir à boire jeune, entre amis,
+          à l'apéritif, sur des fruits de mer et crustacés, des poissons grillés, du Comté, des fromages de chèvres
+          frais !
+        </p>
+        <img src="./images/l-eclat-2021-domaine-de-joy.png" alt="Bouteille de vin L'éclat 2021 - Domaine de Joÿ">
+        <footer>
+          <p>prix : 7€60</p>
+          <form>
+            <label for="quantity">Quantité :</label><br>
+            <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="100"><br>
+            <button>Ajouter au panier</button>
+          </form>
+        </footer>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p><a href="mailto:contact@negosud.com">Contact</a></p>
+  </footer>
+</body>
+
+</html>
